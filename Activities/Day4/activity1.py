@@ -1,3 +1,4 @@
+#created as fork and raising the pull request
 #check the greatest among two numbers 
 v1=5
 v2=10
