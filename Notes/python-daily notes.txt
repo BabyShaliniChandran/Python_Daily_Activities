@@ -1,0 +1,210 @@
+age=int(input('enter the age'))
+if age>=18:
+print('you are eligible to vote')
+else:
+print ('not eligible')
+11°00′03″N 76°57′48″E
+
+
+python is used to calculate , visualized , analyze
+
+Day-1
+
+5 constraints for any program
+
+vao-variable arithmetic operator
+sequence
+selection\conditional
+iteration
+functions
+
+today is vao has to read
+
+compiler,interpertor,compiler+intterpetor , numberical ,
+which is more fast i
+n jypter
+
+====================================================================
+
+Day 2
+
+interpretor and compiler
+datatype
+numeric type
+ 	int
+ 	float
+ 	complex
+dict
+set
+sequence
+ 	list
+ 	tuple
+ 	range
+Boolean
+None type
+frozenset
+type()-function
+print()
+string
+ 	'hello'
+ 	"hello"
+ 	'''hello'''
+ 	"""hello"""
+string concatenation
+ 	+ eg:"Baby"+" Shalini"
+ 	+= eg: a="baby"
+ 	       a+=" Shalini"
+ 
+find()-function or in keyword
+len()-returns length of the string
+slicing and dicing
+ 	[start:end:strip]
+ 		positive[0:5]
+ 		negative[-1:-7:-1]#valid and [-1:-7]#not valid
+ 		reverse[::-1]
+formatting
+ 	f'{}'
+ 	f"Pi rounded to 2 decimals: {pi}") 
+ 	("My name is {} and I am {} years old.".format("Bob", 25))
+ 	f'my name is{string},my age is{number}'
+ 	(f'my name is {} and t am {} year old'('baby',22))
+ 	print("My name is %s and I am %d years old." % (name, age))
+
+new line commands
+ 	\n-new line
+ 	\\-to add \ in the string
+ 	\" - this is to add both 'astringe and "astringe
+ 	\t-tab space
+
+standalone function
+ 	text.upper()
+ 	text.lower()
+ 	text.title()
+ 	text.capitalize()
+
+
+
+Data type
+double is a float data type
+long is a int data type
+
+
+#homework
+
+RANGE IS SUPPORT NY INT OR FLOAT?
+ answer:only int is supported
+
+WHY NONE IS A DATA TYPE
+
+what is the output for 1e6
+v1*v2/v1//v2%v1
+
+===========================================================================================
+a=10
+b=5
+diff = a - b
+9sign = (diff >> 31) & 1
+greater = a - sign * diff
+print(greater)
+
+a=10
+b=5
+print(bool(a>=b) + bool(b>a))
+
+
+Git
+it is version control
+maintain a complete history
+revert to previous versions
+work collaboratively - work in parallel
+identify and resolve conflicts- root cause
+
+Types of version control
+1)local version control - ( local system got crash every thing is lost)
+2)centralize version control -(server is fail every thing got lost)
+3)distributed version control
+--every one has the copy of the project
+--if one system crash others have the full project
+
+Key concepts in version control
+--repository
+--commit (without your changes commit can't perform)
+--Branch
+--merge (bringing two path together)
+--conflict (when tow people works in same file and problem arise)
+--logs
+
+
+git-distributed version control system
+track changes
+collaborative
+
+Feature
+fast
+efficient
+Git
+git --version
+git config --global user.name babychandran
+git config --global user.email Baby.Chandran@Coforge.com
+
+create repo for daily ass
+add the day 1 files
+add the day 2 files
+commit the  change a
+share the log
+
+
+git init
+git status
+git add .
+git commit -m "Comment"
+git checkout -b "Barnh_name"/git checkout branch_name
+git branch
+git mereg branch_name
+
+git cherry pick
+git rebase
+git restore
+
+
+git stash-find the hald unfinesd files/uncommited changes
+git stash pop-to resume the work /delete the work
+git tag - give the label
+
+
+git hub fro team collabartion
+
+issue-track task,bugs,
+pull request - changes from one branch into another and ask for review before merging
+
+
+
+
+CI/CD
+continuous integrity and continues development
+
+
+
+
+
+coomit/push -->ci run tes -->pr open --->
+
+
+GitHub actions is the pipeline tool save as .yml file
+
+
+#list
+
+to unpack the list 
+
+
+
+
+
+
+
+
+
+
+
+ 
