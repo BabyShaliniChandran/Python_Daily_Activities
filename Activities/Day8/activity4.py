@@ -4,7 +4,7 @@ fruit_price={
 "ybab":20,
 "ananab":30}
 #solution 1
-user_input=input()
+#user_input=input()
 #print(fruit_price[user_input[::-1]])
 #solution2
 #print(fruit_price[input()[::-1]])
@@ -22,6 +22,12 @@ index_keys=keys[index]
 
 #using index getting the values
 price=fruit_price[index_keys]
-print(price)
+
+
+
+user_input=input()
+keys=list(fruit_price.keys())
+sorted_keys=list(map(sorted,keys))
+print(fruit_price[keys[sorted(user_input) in sorted(sorted_keys) and sorted_keys.index(sorted(user_input))]])
 
 
