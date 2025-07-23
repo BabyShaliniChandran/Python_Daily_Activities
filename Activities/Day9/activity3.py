@@ -7,3 +7,6 @@ access_data={
 auth_input=tuple(map(int,input("enter the number:").split(",")))
 
 print(access_data.get(auth_input) or access_data.get(auth_input[::-1]))
+ #or
+print(access_data.get(auth_input) or access_data.get((auth_input[1],auth_input[0])))
+

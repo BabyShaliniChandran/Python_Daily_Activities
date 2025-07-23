@@ -49,7 +49,7 @@ s['b']+=5
 s['c']=4
 s.pop('d',-1)
 
-'''
+
 
 d=({'a':5},)
 v=d*2
@@ -63,10 +63,11 @@ update_data={'user':{'profile':{'age':25},'settingd':{'theme':'dark'}}}
 base['user'].update(update_data['user'])
 print(base['user']['profile'])#age:25
 
+'''
+dict([(1,2)])
 
-
-
-
+d=dict([[1,2],[3,4]])
+print(d[3])
 
 
 
