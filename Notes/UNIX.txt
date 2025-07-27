@@ -1,0 +1,29 @@
+UNIX-UN information 
+
+
+kernel
+ the kernel is the core (hub) of unix
+responisibilty
+
+----
+
+
+in unix everthing is 
+
+---a file (data storage)
+---process(running programming)
+
+A file is a collection of data 
+
+files can be:
+*Text files (code,reports)
+*Binary files (executables)
+*Directories (folders that store other files )
+
+in Unix ,even directories are treated as files 
+
+
+
+shell command 
+ls-list contents of a directory
+

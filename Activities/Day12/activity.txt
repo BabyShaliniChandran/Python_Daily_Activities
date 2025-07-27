@@ -1,0 +1,17 @@
+practice in shell script 
+#try 01:reverse the dictionary ,
+# the value should be a key and key shoud turn to value
+d={
+    (103,209) : "Alice",
+    (104,210) : "Bob",
+    (105,211) : "Charlie",
+    (106,212) : "Diana"
+}
+
+try 02:
+set data to be same all the tym in same order
+try 03: print how many names were actually added.
+#if scenario of class have same name with same initial =>2 person how will you add in set
+#try 04: if the value is scrambled how can u perform in membership operators.
+#try 05:
+achieve(walrus operator)(:=) =>short circuit logic   =>(variable := expression)
