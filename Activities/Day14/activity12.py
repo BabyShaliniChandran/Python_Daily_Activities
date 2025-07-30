@@ -1,0 +1,1 @@
+value=42 == int(input("enter a number:")) and print("magic")

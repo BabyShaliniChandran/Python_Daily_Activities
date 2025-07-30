@@ -103,7 +103,7 @@ v1*v2/v1//v2%v1
 a=10
 b=5
 diff = a - b
-9sign = (diff >> 31) & 1
+sign = (diff >> 31) & 1
 greater = a - sign * diff
 print(greater)
 
@@ -267,9 +267,12 @@ diffrence_result=set1-set2
 print(difference_result)
 set1.diffrence(set2)
 
+#Comparision operators
 
+#looping constructs
 
-
+#for syntax
+for item in (range of sequence):
 
 
 
