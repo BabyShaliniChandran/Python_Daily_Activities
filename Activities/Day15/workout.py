@@ -24,7 +24,7 @@ for num in numbers:
 	prinSt(num)
 
 
-'''
+
 for i in range(2,2):
     print(i)
 
@@ -35,3 +35,26 @@ for i in range(2):
 		if j==1:
 		   continue
 		print(j,end="")
+
+'''
+
+magic=9
+user_input=int(input("enter the magic_number"))
+min_window=0
+max_window=100
+while user_input!=magic:
+	if user_input==magic:
+		print("magi")
+		break
+	if user_input>magic:
+
+
+
+
+
+
+
+
+
+
+

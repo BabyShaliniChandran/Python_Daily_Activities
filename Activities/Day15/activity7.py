@@ -8,3 +8,4 @@ for number in range(2,integer+1):
 			break
 	if is_prime:
 		print(number)
+
