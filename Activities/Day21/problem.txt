@@ -1,0 +1,5 @@
+2+2+0+2+0+0+2+0+0+0+6+4+7+4+0+8=35
+
+13mark split up-[0,2,4,8,12,13]
+15 mark split up -[0,2,4,8,12,15,16]
+input is mark and output is total 
