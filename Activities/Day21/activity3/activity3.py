@@ -1,16 +1,22 @@
 import csv
+rows=[
+["Name","Age","City"],
+["Alice",30,"New York"],
+["Bob",25,"London"]
+]
+with open('data.csv','w',newline='') as infile:
+	writer=csv.writer(infile)
+	writer.writerows(rows)
 
-# Step 1: Write to output.csv
+
 with open('data.csv', newline='') as infile, open('output.csv', 'w', newline='') as outfile:
     reader = csv.reader(infile)
-    writer = csv.writerow(outfile, quotechar='-', quoting=csv.QUOTE_MINIMAL)
-    # Modify and write rows
+    writer = csv.writer(outfile, quotechar='-', quoting=csv.QUOTE_NONNUMERIC)
+    next(reader)
     for row in reader:
-        row[1] = f"-{row[1]}-"
         writer.writerow(row)
 
-# Step 2: Read from output.csv
-with open('output.csv', newline='') as f:
-    reader = csv.reader(f)
-    for row in reader:
-        print(row)
+with open('output.csv',newline='')as f:
+	reader=csv.reader(f)
+	for row in reader:
+		print(row)

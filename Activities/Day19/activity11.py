@@ -7,3 +7,4 @@ with open("reversed.txt", "w") as reversed_file:
     reversed_file.writelines(reversed_lines)
 print(open("original.txt").read())
 print(open("reversed.txt").read())
+	
