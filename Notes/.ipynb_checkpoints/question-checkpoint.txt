@@ -1,0 +1,9 @@
+searching
+binary
+linear
+
+sorting
+bubble sort
+selection sort
+quick sort
+insertion sort

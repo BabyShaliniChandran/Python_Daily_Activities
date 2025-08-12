@@ -15,12 +15,11 @@ class BankAccount:
             self.__deposite=amount
         else:
             print("amount is not sufficient")
-    @property
-    def withraw(slef,amount):
+    def withraw(self,amount):
         if amount>= 0:
             if amount>= self.__balance:
-                self.__balance-=amount
-amount=BankAccount(200)
+                self.__balance=abs(amount-self.__balance)
+amount=BankAccount()
 amount.deposite=1000
 print(amount.balance)
 
